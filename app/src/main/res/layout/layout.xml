@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="#123789">
+     <ImageView
+         android:layout_width="0dp"
+         android:layout_height="100dp"
+         android:layout_weight="1"
+         android:id="@+id/kisiResmi"/>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kisiIsmı"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kisimesaj"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>
